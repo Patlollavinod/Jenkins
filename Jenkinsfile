@@ -572,10 +572,10 @@ pipeline {
     }
 
     // lock multiple stages into 1 concurrent execution using a parent stage
-    stage('Parent') {
-      options {
-        lock('something')
-      }
+    //stage('Parent') {
+      /options {
+        /lock('something')
+      }//
       stages {
         stage('one') {
           steps {

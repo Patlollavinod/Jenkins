@@ -33,7 +33,7 @@
 //                        creds: [string(credentialsId: 'jenkins-gcp-serviceaccount-key', variable: 'GCP_SERVICEACCOUNT_KEY')],
 //                        container: 'gcloud-sdk',
 //                        yamlFile: 'ci/jenkins-pod.yaml')
-//
+
 //    // to only execute if files under the /path/to/deployment/dir and /path/to/modules have changed, under SCM using Git add Additional Behaviours -> Polling ignores commits in certain paths -> Include box, add your patterns there
 //
 //    // for explicit Git checkout settings or to prototype this pipeline call from Jenkins UI without having to push through SCM, add this parameter:

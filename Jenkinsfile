@@ -1116,7 +1116,6 @@ pipeline {
         // uses a Jenkins credential containing an uploaded .kube/config
         withKubeConfig([credentialsId:kubeconfig, contextName:canary]){
           sh 'kubectl apply -f manifests/'
-        }
       }
     }
 

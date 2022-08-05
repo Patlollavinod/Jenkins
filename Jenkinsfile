@@ -573,9 +573,10 @@ pipeline {
 
     // lock multiple stages into 1 concurrent execution using a parent stage
     stage('Parent') {
-      /options {
-        //lock('something')
+      options {
+        lock('something')
       }
+    }
       stages {
         stage('one') {
           steps {
@@ -1260,7 +1261,6 @@ pipeline {
     //cleanup {
     //}
   }
-   }
 }
 // https://github.com/jenkinsci/pipeline-examples/tree/master/jenkinsfile-examples/sonarqube:
 //

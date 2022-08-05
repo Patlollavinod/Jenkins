@@ -1260,7 +1260,8 @@ pipeline {
     //cleanup {
     //}
   }
-
+   }
+}
 // https://github.com/jenkinsci/pipeline-examples/tree/master/jenkinsfile-examples/sonarqube:
 //
 // - Manage Jenkins > Configure System and set up SonarQube Servers

@@ -1260,7 +1260,6 @@ pipeline {
     //cleanup {
     //}
   }
-}
 
 // https://github.com/jenkinsci/pipeline-examples/tree/master/jenkinsfile-examples/sonarqube:
 //

@@ -172,7 +172,7 @@ pipeline {
     //gitlabCommitStatus(name: "Jenkins build $BUILD_DISPLAY_NAME")
 
     // requires ansicolor plugin
-    ansiColor('xterm')
+    //ansiColor('xterm')
   }
 
   // https://www.jenkins.io/doc/book/pipeline/syntax/#cron-syntax
@@ -574,7 +574,7 @@ pipeline {
     // lock multiple stages into 1 concurrent execution using a parent stage
     stage('Parent') {
       options {
-        lock('something')
+        //lock('something')
       }
       stages {
         stage('one') {

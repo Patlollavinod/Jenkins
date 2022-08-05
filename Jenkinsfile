@@ -576,7 +576,6 @@ pipeline {
       options {
         lock('something')
       }
-    }
       stages {
         stage('one') {
           steps {
